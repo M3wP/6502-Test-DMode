@@ -1,0 +1,136 @@
+object ConvExtractDataMainForm: TConvExtractDataMainForm
+  Left = 648
+  Height = 179
+  Top = 156
+  Width = 413
+  ActiveControl = Button1
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsSingle
+  Caption = 'Convert Extract Data'
+  ClientHeight = 179
+  ClientWidth = 413
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poDefaultPosOnly
+  LCLVersion = '1.2.4.0'
+  object StatusBar1: TStatusBar
+    Left = 0
+    Height = 23
+    Top = 156
+    Width = 413
+    Panels = <>
+    SizeGrip = False
+  end
+  object Label1: TLabel
+    Left = 4
+    Height = 15
+    Top = 8
+    Width = 27
+    Caption = 'Path:'
+    ParentColor = False
+  end
+  object Edit1: TEdit
+    Left = 72
+    Height = 23
+    Top = 4
+    Width = 309
+    Anchors = [akTop, akLeft, akRight]
+    Color = clBtnFace
+    ReadOnly = True
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 385
+    Height = 25
+    Top = 3
+    Width = 23
+    Action = actSelectPath
+    Anchors = [akTop, akRight]
+    TabOrder = 2
+  end
+  object Button2: TButton
+    Left = 333
+    Height = 25
+    Top = 36
+    Width = 75
+    Action = actProcessExecute
+    Anchors = [akTop, akRight]
+    TabOrder = 3
+  end
+  object Label2: TLabel
+    Left = 4
+    Height = 15
+    Top = 72
+    Width = 56
+    Caption = 'Operation:'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 4
+    Height = 15
+    Top = 120
+    Width = 48
+    Caption = 'Progress:'
+    ParentColor = False
+  end
+  object ProgressBar1: TProgressBar
+    Left = 72
+    Height = 20
+    Top = 117
+    Width = 336
+    Anchors = [akTop, akLeft, akRight]
+    Smooth = True
+    TabOrder = 4
+  end
+  object Label4: TLabel
+    Left = 4
+    Height = 15
+    Top = 96
+    Width = 21
+    Caption = 'File:'
+    ParentColor = False
+  end
+  object Label5: TLabel
+    Left = 72
+    Height = 15
+    Top = 96
+    Width = 335
+    Anchors = [akTop, akLeft, akRight]
+    AutoSize = False
+    ParentColor = False
+  end
+  object Label6: TLabel
+    Left = 72
+    Height = 1
+    Top = 72
+    Width = 1
+    ParentColor = False
+  end
+  object SelectDirectoryDialog1: TSelectDirectoryDialog
+    Options = [ofPathMustExist, ofEnableSizing, ofViewDetail]
+    left = 304
+    top = 4
+  end
+  object ActionList1: TActionList
+    left = 228
+    top = 4
+    object actProcessExecute: TAction
+      Category = 'Process'
+      Caption = '&Process'
+      OnExecute = actProcessExecuteExecute
+      OnUpdate = actProcessExecuteUpdate
+      ShortCut = 16464
+    end
+    object actSelectPath: TAction
+      Category = 'Process'
+      Caption = '...'
+      OnExecute = actSelectPathExecute
+      OnUpdate = actSelectPathUpdate
+    end
+  end
+  object ApplicationProperties1: TApplicationProperties
+    OnIdle = ApplicationProperties1Idle
+    left = 132
+    top = 4
+  end
+end

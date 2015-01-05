@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="9"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="ConvertExtractData.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ConvertExtractData"/>
+        <UsageCount Value="20"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ConvExtractDataMainForm"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FormConvExtractDataMain"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="0"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="440"/>
+        <CursorPos X="1" Y="449"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="C:\lazarus\fpc\2.6.4\source\packages\fcl-base\src\syncobjs.pp"/>
+        <UnitName Value="syncobjs"/>
+        <EditorIndex Value="3"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="56"/>
+        <CursorPos X="4" Y="76"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="C:\lazarus\fpc\2.6.4\source\rtl\objpas\sysutils\filutilh.inc"/>
+        <EditorIndex Value="1"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="74"/>
+        <CursorPos X="20" Y="98"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="C:\lazarus\fpc\2.6.4\source\rtl\win\sysutils.pp"/>
+        <UnitName Value="sysutils"/>
+        <EditorIndex Value="2"/>
+        <WindowIndex Value="0"/>
+        <TopLine Value="350"/>
+        <CursorPos X="10" Y="370"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit4>
+    </Units>
+    <General>
+      <ActiveWindowIndexAtStart Value="0"/>
+    </General>
+    <JumpHistory Count="30" HistoryIndex="29">
+      <Position1>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="371" Column="1" TopLine="349"/>
+      </Position1>
+      <Position2>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="265" Column="30" TopLine="235"/>
+      </Position2>
+      <Position3>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="266" Column="1" TopLine="223"/>
+      </Position3>
+      <Position4>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="272" Column="1" TopLine="233"/>
+      </Position4>
+      <Position5>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="475" Column="31" TopLine="275"/>
+      </Position5>
+      <Position6>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="290" Column="1" TopLine="276"/>
+      </Position6>
+      <Position7>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="291" Column="1" TopLine="276"/>
+      </Position7>
+      <Position8>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="293" Column="1" TopLine="276"/>
+      </Position8>
+      <Position9>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="310" Column="1" TopLine="278"/>
+      </Position9>
+      <Position10>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="312" Column="1" TopLine="280"/>
+      </Position10>
+      <Position11>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="313" Column="1" TopLine="281"/>
+      </Position11>
+      <Position12>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="315" Column="1" TopLine="324"/>
+      </Position12>
+      <Position13>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="358" Column="1" TopLine="326"/>
+      </Position13>
+      <Position14>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="123" Column="1" TopLine="103"/>
+      </Position14>
+      <Position15>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="124" Column="1" TopLine="103"/>
+      </Position15>
+      <Position16>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="125" Column="1" TopLine="103"/>
+      </Position16>
+      <Position17>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="126" Column="1" TopLine="103"/>
+      </Position17>
+      <Position18>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="127" Column="1" TopLine="103"/>
+      </Position18>
+      <Position19>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="128" Column="1" TopLine="103"/>
+      </Position19>
+      <Position20>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="129" Column="1" TopLine="103"/>
+      </Position20>
+      <Position21>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="132" Column="1" TopLine="103"/>
+      </Position21>
+      <Position22>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="290" Column="1" TopLine="270"/>
+      </Position22>
+      <Position23>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="291" Column="1" TopLine="270"/>
+      </Position23>
+      <Position24>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="293" Column="1" TopLine="270"/>
+      </Position24>
+      <Position25>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="310" Column="1" TopLine="291"/>
+      </Position25>
+      <Position26>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="312" Column="1" TopLine="291"/>
+      </Position26>
+      <Position27>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="358" Column="1" TopLine="338"/>
+      </Position27>
+      <Position28>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="475" Column="28" TopLine="433"/>
+      </Position28>
+      <Position29>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="447" Column="32" TopLine="433"/>
+      </Position29>
+      <Position30>
+        <Filename Value="formconvextractdatamain.pas"/>
+        <Caret Line="457" Column="1" TopLine="318"/>
+      </Position30>
+    </JumpHistory>
+  </ProjectSession>
+  <EditorMacros Count="0"/>
+</CONFIG>
